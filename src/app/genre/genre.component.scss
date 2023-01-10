@@ -1,31 +1,24 @@
-$cardColor: rgb(56, 56, 56);
-$textColor: #fff;
-$boxShadowColor: #1e1e1e;
+$color: rgb(200, 200, 200);
+$backgroundColor: #312b34;
 
-.genre-dialog {
-  background-color: $cardColor;
-  margin-top: 0;
-  box-shadow: none;
-}
+:host {
+  .genre-dialog {
+    padding: 1rem;
+    color: $color;
+    background-color: $backgroundColor;
 
-.genre-dialog-title {
-  color: $textColor;
-}
-
-.genre-dialog-content {
-  color: $textColor;
-}
-
-.genre-close-button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 0;
-  line-height: 14px;
-  min-width: auto;
-  border: none;
-  font-size: 20px;
-  background-color: transparent;
-  cursor: pointer;
-  color: $textColor;
+    &-content {
+      color: $color;
+      padding: 1rem;
+      line-height: 1.2;
+    }
+  }
+  .genre-actions {
+    padding: 0;
+    min-height: min-content;
+  }
+  .genre-close-button {
+    background-color: rgb(28, 28, 28);
+    color: $color;
+  }
 }

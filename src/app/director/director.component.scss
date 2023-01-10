@@ -1,31 +1,24 @@
-$cardColor: rgb(56, 56, 56);
-$textColor: #fff;
-$boxShadowColor: #1e1e1e;
+$color: rgb(200, 200, 200);
+$backgroundColor: #312b34;
 
-.director-dialog {
-  background-color: $cardColor;
-  margin-top: 0;
-  box-shadow: none;
-}
+:host {
+  .director-dialog {
+    padding: 1rem;
+    color: $color;
+    background-color: $backgroundColor;
 
-.director-dialog-title {
-  color: $textColor;
-}
-
-.director-dialog-content {
-  color: $textColor;
-}
-
-.director-close-button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 0;
-  line-height: 14px;
-  min-width: auto;
-  border: none;
-  font-size: 20px;
-  background-color: transparent;
-  cursor: pointer;
-  color: $textColor;
+    &-content {
+      color: $color;
+      padding: 1rem;
+      line-height: 1.2;
+    }
+  }
+  .director-actions {
+    padding: 0;
+    min-height: min-content;
+  }
+  .director-close-button {
+    background-color: rgb(28, 28, 28);
+    color: $color;
+  }
 }

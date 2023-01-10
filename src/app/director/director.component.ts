@@ -1,10 +1,10 @@
-import { Component, OnInit, Inject } from '@angular/core';
-import { MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { Component, OnInit, Inject } from "@angular/core";
+import { MAT_DIALOG_DATA } from "@angular/material/dialog";
 
 @Component({
-  selector: 'app-director',
-  templateUrl: './director.component.html',
-  styleUrls: ['./director.component.scss'],
+  selector: "app-director",
+  templateUrl: "./director.component.html",
+  styleUrls: ["./director.component.scss"],
 })
 export class DirectorComponent implements OnInit {
   constructor(

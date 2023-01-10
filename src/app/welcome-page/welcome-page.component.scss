@@ -1,41 +1,26 @@
-$backgroundColor: #000;
-$cardColor: rgb(56, 56, 56);
-$textColor: #fff;
-$boxShadowColor: #1e1e1e;
+:host {
+  .main-page {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
 
-* {
-  box-sizing: border-box;
-}
+    h1 {
+      color: #bcbcbc;
+      margin-bottom: 1rem;
+    }
 
-.welcome-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px 40px;
-  background-color: $backgroundColor;
-}
+    .sign-up {
+      background-color: rgb(136, 55, 154);
+      color: white;
+    }
 
-.welcome-card {
-  max-width: 300px;
-  margin: auto;
-  padding: 30px;
-  flex-direction: column;
-  box-shadow: 0 25px 30px $boxShadowColor;
-  background-color: $cardColor;
-  justify-content: space-evenly;
-}
-
-.welcome-card-header {
-  margin-bottom: 20px;
-  color: $textColor;
-  display: flex;
-  justify-content: center;
-}
-
-.mat-card > .mat-card-actions:last-child {
-  margin-left: 0;
-  padding-bottom: 0;
-  display: flex;
-  justify-content: space-evenly;
+    .log-in {
+      background-color: #bcbcbc;
+      color: rgb(43, 41, 41);
+    }
+  }
 }
