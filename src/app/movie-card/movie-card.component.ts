@@ -63,7 +63,7 @@ export class MovieCardComponent {
    */
 
   isFavorite(id: string): boolean {
-    return this.favorites.includes(id);
+    return this.favorites?.includes(id);
   }
 
   /**
