@@ -19,7 +19,7 @@ TypeScript, Angular, TypeDoc
 
 ## Deployed app link
 
-https://mats-js.github.io/myFlix-Angular-client/
+https://claudiaj501.github.io/myFlix-Angular-client/
 
 ## Development server
 
